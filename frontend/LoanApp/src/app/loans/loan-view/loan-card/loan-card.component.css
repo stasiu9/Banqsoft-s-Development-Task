@@ -1,0 +1,10 @@
+.loan-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+  height: 50vh;
+}
+mat-slider {
+  width: 300px;
+}
