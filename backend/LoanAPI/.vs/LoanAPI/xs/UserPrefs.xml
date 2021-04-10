@@ -1,16 +1,30 @@
 ﻿<Properties StartupConfiguration="{3404024C-6487-4428-92A4-7F88328B2F2D}|Default">
-  <MonoDevelop.Ide.ItemProperties.LoanAPI FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="LoanAPI/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.LoanAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LoanAPI/Migrations/20210410130724_InitialData.cs">
     <Files>
-      <File FileName="LoanAPI/appsettings.json" Line="1" Column="1" />
-      <File FileName="LoanAPI/Program.cs" Line="1" Column="1" />
+      <File FileName="LoanAPI/appsettings.json" Line="10" Column="40" />
+      <File FileName="LoanAPI/Program.cs" Line="22" Column="18" />
+      <File FileName="LoanAPI/Startup.cs" Line="48" Column="36" />
+      <File FileName="LoanAPI/Extensions/ServiceExtensions.cs" Line="30" Column="48" />
+      <File FileName="Entities/Models/Loan.cs" Line="18" Column="2" />
+      <File FileName="Entities/RepositoryContext.cs" Line="18" Column="1" />
+      <File FileName="LoanAPI/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="LoanAPI/mono_crash.11a6748113.0.json" Line="1" Column="1" />
+      <File FileName="LoanAPI/Migrations/20210410124433_DatabaseCreation.cs" Line="1" Column="1" />
+      <File FileName="LoanAPI/Migrations/RepositoryContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="Entities/Configuration/LoanConfiguration.cs" Line="8" Column="18" />
+      <File FileName="LoanAPI/Migrations/20210410130724_InitialData.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LoanAPI" expanded="True">
+            <Node name="Entities" expanded="True">
+              <Node name="Configuration" expanded="True" />
+            </Node>
             <Node name="LoanAPI" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Extensions" expanded="True" />
             </Node>
           </Node>
         </State>

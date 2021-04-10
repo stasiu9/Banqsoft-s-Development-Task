@@ -1,0 +1,12 @@
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/obj/Debug/netcoreapp3.1/Entities.csprojAssemblyReference.cache
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/obj/Debug/netcoreapp3.1/Entities.AssemblyInfoInputs.cache
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/obj/Debug/netcoreapp3.1/Entities.AssemblyInfo.cs
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/obj/Debug/netcoreapp3.1/Entities.csproj.CoreCompileInputs.cache
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/bin/Debug/netcoreapp3.1/Entities.deps.json
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/bin/Debug/netcoreapp3.1/Entities.dll
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/bin/Debug/netcoreapp3.1/Entities.pdb
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/obj/Debug/netcoreapp3.1/Entities.dll
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/obj/Debug/netcoreapp3.1/Entities.pdb
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/bin/Debug/netcoreapp3.1/Entities.runtimeconfig.json
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/bin/Debug/netcoreapp3.1/Entities.runtimeconfig.dev.json
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/obj/Debug/netcoreapp3.1/Entities.genruntimeconfig.cache
