@@ -1,0 +1,14 @@
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/bin/Debug/netcoreapp3.1/LoggerService.deps.json
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/bin/Debug/netcoreapp3.1/LoggerService.dll
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/bin/Debug/netcoreapp3.1/LoggerService.pdb
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/bin/Debug/netcoreapp3.1/Contracts.dll
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/bin/Debug/netcoreapp3.1/Entities.dll
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/bin/Debug/netcoreapp3.1/Contracts.pdb
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/bin/Debug/netcoreapp3.1/Entities.pdb
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.csprojAssemblyReference.cache
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.AssemblyInfoInputs.cache
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.AssemblyInfo.cs
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.csproj.CoreCompileInputs.cache
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.csproj.CopyComplete
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.dll
+/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.pdb

@@ -1,31 +1,48 @@
 ﻿<Properties StartupConfiguration="{3404024C-6487-4428-92A4-7F88328B2F2D}|Default">
   <MonoDevelop.Ide.ItemProperties.LoanAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="LoanAPI/Migrations/20210410130724_InitialData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LoanAPI/Controllers/LoansController.cs">
     <Files>
-      <File FileName="LoanAPI/appsettings.json" Line="10" Column="40" />
-      <File FileName="LoanAPI/Program.cs" Line="22" Column="18" />
-      <File FileName="LoanAPI/Startup.cs" Line="48" Column="36" />
-      <File FileName="LoanAPI/Extensions/ServiceExtensions.cs" Line="30" Column="48" />
-      <File FileName="Entities/Models/Loan.cs" Line="18" Column="2" />
+      <File FileName="LoanAPI/appsettings.json" Line="10" Column="113" />
+      <File FileName="LoanAPI/Program.cs" Line="16" Column="1" />
+      <File FileName="LoanAPI/Startup.cs" Line="53" Column="34" />
+      <File FileName="LoanAPI/Extensions/ServiceExtensions.cs" Line="44" Column="28" />
+      <File FileName="Entities/Models/Loan.cs" Line="16" Column="8" />
       <File FileName="Entities/RepositoryContext.cs" Line="18" Column="1" />
-      <File FileName="LoanAPI/WeatherForecast.cs" Line="1" Column="1" />
       <File FileName="LoanAPI/mono_crash.11a6748113.0.json" Line="1" Column="1" />
       <File FileName="LoanAPI/Migrations/20210410124433_DatabaseCreation.cs" Line="1" Column="1" />
       <File FileName="LoanAPI/Migrations/RepositoryContextModelSnapshot.cs" Line="1" Column="1" />
       <File FileName="Entities/Configuration/LoanConfiguration.cs" Line="8" Column="18" />
-      <File FileName="LoanAPI/Migrations/20210410130724_InitialData.cs" Line="1" Column="1" />
+      <File FileName="LoanAPI/Migrations/20210410130724_InitialData.cs" Line="34" Column="2" />
+      <File FileName="Repository/RepositoryBase.cs" Line="36" Column="2" />
+      <File FileName="Entities/IRepositoryBase.cs" Line="16" Column="1" />
+      <File FileName="Contracts/ILoggerManager.cs" Line="12" Column="1" />
+      <File FileName="LoggerService/LoggerManager.cs" Line="7" Column="2" />
+      <File FileName="LoanAPI/nlog.config" Line="13" Column="8" />
+      <File FileName="LoanAPI/mono_crash.11a6748113.1.json" Line="1" Column="1" />
+      <File FileName="Contracts/ILoanRepository.cs" Line="12" Column="2" />
+      <File FileName="Repository/LoanRepository.cs" Line="24" Column="1" />
+      <File FileName="LoanAPI/Utility/LoanService.cs" Line="10" Column="16" />
+      <File FileName="LoanAPI/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Entities/DataTransferObjects/LoanToCalculate.cs" Line="10" Column="6" />
+      <File FileName="Entities/DataTransferObjects/MonthlyPayment.cs" Line="7" Column="38" />
+      <File FileName="LoanAPI/Controllers/LoansController.cs" Line="65" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LoanAPI" expanded="True">
+            <Node name="Contracts" expanded="True" />
             <Node name="Entities" expanded="True">
-              <Node name="Configuration" expanded="True" />
+              <Node name="DataTransferObjects" expanded="True" />
             </Node>
             <Node name="LoanAPI" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="LoansController.cs" selected="True" />
+              </Node>
               <Node name="Extensions" expanded="True" />
+              <Node name="Utility" expanded="True" />
             </Node>
+            <Node name="Repository" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -34,7 +51,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoanAPI/Controllers/LoansController.cs" relfile="LoanAPI/Controllers/LoansController.cs" line="65" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

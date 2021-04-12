@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+.wrapper {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper-button {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin: 1%;
+}

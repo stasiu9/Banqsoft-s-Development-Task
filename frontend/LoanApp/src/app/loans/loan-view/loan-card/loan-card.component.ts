@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from "@angular/core";
-import { FormBuilder, FormGroup } from "@angular/forms";
+import { FormGroup } from "@angular/forms";
+import { Loan } from "src/app/models/loan";
 
 @Component({
   selector: "app-loan-card",
@@ -7,23 +8,8 @@ import { FormBuilder, FormGroup } from "@angular/forms";
   styleUrls: ["./loan-card.component.css"],
 })
 export class LoanCardComponent implements OnInit {
-  form: FormGroup;
-  @Input() typesOfLoan: [];
-  constructor(private fb: FormBuilder) {
-    this.form = this.fb.group({
-      loanType: [""],
-      loanAmount: [""],
-      years: [""],
-    });
-  }
-  formatLabel(value: number) {
-    if (value >= 1000) {
-      return Math.round(value / 1000) + "k";
-    }
-
-    return value;
-  }
+  @Input() form: FormGroup;
+  @Input() typesOfLoan: Loan[];
+  constructor() {}
   ngOnInit() {}
-
-  onSubmit() {}
 }

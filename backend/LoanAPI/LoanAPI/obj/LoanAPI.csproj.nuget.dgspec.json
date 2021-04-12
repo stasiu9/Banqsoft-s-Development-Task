@@ -4,6 +4,62 @@
     "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoanAPI/LoanAPI.csproj": {}
   },
   "projects": {
+    "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Contracts/Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Contracts/Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Contracts/Contracts.csproj",
+        "packagesPath": "/Users/stasiu/.nuget/packages/",
+        "outputPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stasiu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/Entities.csproj": {
+                "projectPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/Entities.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -14,7 +70,7 @@
         "outputPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/stasiu/.nuget/NuGet/NuGet.Config"
+          "/Users/stasiu/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -78,7 +134,7 @@
         "outputPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoanAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/stasiu/.nuget/NuGet/NuGet.Config"
+          "/Users/stasiu/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -92,6 +148,12 @@
             "projectReferences": {
               "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/Entities.csproj": {
                 "projectPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/Entities.csproj"
+              },
+              "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/LoggerService.csproj": {
+                "projectPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/LoggerService.csproj"
+              },
+              "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Repository/Repository.csproj": {
+                "projectPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Repository/Repository.csproj"
               }
             }
           }
@@ -106,6 +168,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.5, )"
@@ -115,6 +181,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -131,6 +201,127 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/LoggerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/LoggerService.csproj",
+        "projectName": "LoggerService",
+        "projectPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/LoggerService.csproj",
+        "packagesPath": "/Users/stasiu/.nuget/packages/",
+        "outputPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/LoggerService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stasiu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Contracts/Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Repository/Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Repository/Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Repository/Repository.csproj",
+        "packagesPath": "/Users/stasiu/.nuget/packages/",
+        "outputPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stasiu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Contracts/Contracts.csproj"
+              },
+              "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/Entities.csproj": {
+                "projectPath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

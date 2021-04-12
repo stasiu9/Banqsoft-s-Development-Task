@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+LpzfnR5xZVDPTF2QtM4y7+5vhQy2UZ7V7lUk79+gAfM8w662jbkxzOm9CTIi8XeOrSQ8yh5Yp9r36ptX2jVxg==",
+  "dgSpecHash": "w5l2QkRVpMqyqXSGfMAVA83QdX/ywPkju653X4ykM3kHUszurt64oxsqni/+0ArVu57BKyVr4eb6tCpt/xrJ0A==",
   "success": true,
   "projectFilePath": "/Users/stasiu/Documents/GitHub/Banqsoft-s-Development-Task/backend/LoanAPI/Entities/Entities.csproj",
   "expectedPackageFiles": [

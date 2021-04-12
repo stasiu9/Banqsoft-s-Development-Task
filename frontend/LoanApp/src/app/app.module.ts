@@ -1,3 +1,4 @@
+import { LoanTableComponent } from "./loans/loan-view/loan-table/loan-table.component";
 import { LoanService } from "./services/loan.service";
 import { LoanViewComponent } from "./loans/loan-view/loan-view.component";
 import { LoanCardComponent } from "./loans/loan-view/loan-card/loan-card.component";
@@ -23,6 +24,8 @@ import { MatTooltipModule } from "@angular/material/tooltip";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MatSliderModule } from "@angular/material/slider";
 import { HttpClientModule } from "@angular/common/http";
+import { MatCurrencyFormatModule } from "mat-currency-format";
+import { MatTableModule } from "@angular/material/table";
 
 @NgModule({
   declarations: [
@@ -30,6 +33,7 @@ import { HttpClientModule } from "@angular/common/http";
     ToolbarComponent,
     LoanCardComponent,
     LoanViewComponent,
+    LoanTableComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,6 +59,8 @@ import { HttpClientModule } from "@angular/common/http";
     ReactiveFormsModule,
     MatSliderModule,
     HttpClientModule,
+    MatCurrencyFormatModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

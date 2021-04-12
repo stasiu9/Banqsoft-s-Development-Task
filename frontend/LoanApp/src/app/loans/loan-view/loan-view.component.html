@@ -1,2 +1,25 @@
-<app-loan-card></app-loan-card>
-<p>loan-view works!</p>
+<div class="wrapper">
+  <h2>Loan calculator</h2>
+  <div class="wrapper-form">
+    <app-loan-card
+      [form]="loanForm"
+      [typesOfLoan]="typesOfLoan"
+    ></app-loan-card>
+  </div>
+  <div class="wrapper-button">
+    <button
+      mat-raised-button
+      [disabled]="!loanForm.valid"
+      type="submit"
+      (click)="calculateLoan()"
+      color="primary"
+    >
+      <mat-icon>gavel</mat-icon>
+      Calculate
+    </button>
+  </div>
+  <app-loan-table
+    *ngIf="monthlyPayments"
+    [monthlyPayments]="monthlyPayments"
+  ></app-loan-table>
+</div>

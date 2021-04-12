@@ -1,9 +1,13 @@
 ﻿using System;
+using Contracts;
 using Entities;
+using LoanAPI.Utility;
+using LoggerService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Repository;
 
 namespace LoanAPI.Extensions
 {
@@ -23,10 +27,21 @@ namespace LoanAPI.Extensions
 
         });
 
+        public static void ConfigureLoggerService(this IServiceCollection services) =>
+            services.AddScoped<ILoggerManager, LoggerManager>();
+        
+           
+
         public static void ConfigureSqlContext(this IServiceCollection services,
             IConfiguration configuration) =>
                 services.AddDbContext<RepositoryContext>(opts =>
                     opts.UseSqlServer(configuration.GetConnectionString("sqlConnection"), b =>
                     b.MigrationsAssembly("LoanAPI")));
+
+        public static void ConfigureRepositoryManager(this IServiceCollection services) =>
+            services.AddScoped<IRepositoryManager, RepositoryManager>();
+
+        public static void ConfigureLoanService(this IServiceCollection services) =>
+            services.AddScoped<ILoanService, LoanService>();
     }
 }

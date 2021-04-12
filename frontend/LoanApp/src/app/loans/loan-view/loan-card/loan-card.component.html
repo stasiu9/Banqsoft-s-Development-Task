@@ -1,52 +1,38 @@
-<mat-card class="loan-card">
-  <div class="loan-card-information">
-    <h2 class="loan-card-title">Loan Calculation</h2>
-    <div class="loan-card-form">
-      <form [formGroup]="form" (ngSubmit)="onSubmit()">
-        <div class="loan-card-form-row">
-          <mat-form-field>
-            <mat-label>Choose type of loan</mat-label>
-            <mat-select>
-              <mat-option>House loan </mat-option>
-              <mat-option>Car loan</mat-option>
-            </mat-select>
-          </mat-form-field>
-        </div>
-        <div class="loan-card-form-row">
-          <mat-form-field>
-            <mat-label> Amount </mat-label>
-            <input
-              matInput
-              type="number"
-              formControlName="loanAmount"
-              placeholder=""
-              required
-            />
-          </mat-form-field>
-        </div>
-        <div class="loan-card-form-row">
-          <mat-form-field>
-            <mat-label>Years </mat-label>
-            <input
-              matInput
-              type="number"
-              formControlName="years"
-              placeholder=""
-              required
-            />
-          </mat-form-field>
-        </div>
-        <div class="add-recipe-form-row add-recipe-form-submit">
-          <button
-            mat-raised-button
-            class="add-recipe-form-submit-button"
-            [disabled]="!form.valid"
-            type="submit"
-          >
-            Calculate
-          </button>
-        </div>
-      </form>
-    </div>
+<form [formGroup]="form">
+  <div class="loan-card-form-row">
+    <mat-form-field>
+      <mat-label>Choose type of loan</mat-label>
+      <mat-select formControlName="loanType">
+        <mat-option *ngFor="let loan of typesOfLoan" [value]="loan.loanType"
+          >{{ loan.loanType }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
   </div>
-</mat-card>
+  <div class="loan-card-form-row">
+    <mat-form-field>
+      <mat-label> Amount </mat-label>
+      <input
+        matInput
+        type="text"
+        mvndrMatCurrencyFormat
+        [allowNegative]="false"
+        [currencyCode]="'EUR'"
+        value="loanAmount"
+        formControlName="loanAmount"
+      />
+    </mat-form-field>
+  </div>
+  <div class="loan-card-form-row">
+    <mat-form-field>
+      <mat-label>Payback time in years </mat-label>
+      <input
+        matInput
+        type="number"
+        formControlName="years"
+        placeholder=""
+        required
+      />
+    </mat-form-field>
+  </div>
+</form>
