@@ -38,6 +38,10 @@ namespace LoanAPI.Utility
                 monthlyPayments.Add(monthlyPaymentTemp);
             }
             monthlyPayments[monthlyPayments.Count-1].NewBalance=Math.Round(monthlyPayments[monthlyPayments.Count - 1].NewBalance,0);
+            if(monthlyPayments[monthlyPayments.Count - 1].NewBalance < 0)
+            {
+                monthlyPayments[monthlyPayments.Count - 1].NewBalance = 0;
+            }
             return monthlyPayments;
         }
 

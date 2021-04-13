@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
 .wrapper {
   width: 100%;
-  min-height: 50vh;
+  /* min-height: 50vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,10 +10,20 @@
 .wrapper-button {
   display: flex;
   justify-content: center;
-  margin: 2%;
+  margin: 5%;
 }
 h2 {
+  display: flex;
+  justify-content: center;
   font-family: "Montserrat";
   font-weight: 700;
   margin: 1%;
+}
+.wrapper-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 20%;
+  height: 70%;
+  margin: 3%;
 }

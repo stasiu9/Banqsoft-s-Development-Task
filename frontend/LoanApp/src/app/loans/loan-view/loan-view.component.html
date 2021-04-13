@@ -1,23 +1,25 @@
 <div class="wrapper">
-  <h2>Loan calculator</h2>
-  <div class="wrapper-form">
-    <app-loan-card
-      [form]="loanForm"
-      [typesOfLoan]="typesOfLoan"
-    ></app-loan-card>
-  </div>
-  <div class="wrapper-button">
-    <button
-      mat-raised-button
-      [disabled]="!loanForm.valid"
-      type="submit"
-      (click)="calculateLoan()"
-      color="primary"
-    >
-      <mat-icon>gavel</mat-icon>
-      Calculate
-    </button>
-  </div>
+  <mat-card class="wrapper-card">
+    <h2>Loan calculator</h2>
+    <div class="wrapper-form">
+      <app-loan-card
+        [form]="loanForm"
+        [typesOfLoan]="typesOfLoan"
+      ></app-loan-card>
+    </div>
+    <div class="wrapper-button">
+      <button
+        mat-raised-button
+        [disabled]="!loanForm.valid"
+        type="submit"
+        (click)="calculateLoan()"
+        color="primary"
+      >
+        <mat-icon>gavel</mat-icon>
+        Calculate
+      </button>
+    </div>
+  </mat-card>
   <app-loan-table
     *ngIf="monthlyPayments"
     [monthlyPayments]="monthlyPayments"
