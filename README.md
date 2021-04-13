@@ -5,12 +5,12 @@
 
 
 ## General info
-Simple SPA application used for calculating the cost of loan. I also created database to store information about loans and interest rate.
+Simple SPA application used for calculating the cost of loan. Application is connected with database where are stored information about loans and interest rate.
 
 ## Technologies
 * .NET Core 3.1
 * Angular 9
-
+* Docker
 ## Setup
 ### Angular project
 #### Prerequisites
@@ -29,13 +29,25 @@ Run project:
 $ ng serve
 ```
 
-### .Net Core 
+### .Net Core with database connection
 #### Prerequisites
-*  Install dotnet sdk
+* Install dotnet sdk
 * Install docker
+#### Firstly you should follow instructions in link below to install SQL Server:
+* https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker
 
+Next you should setup migration:
+* Remove the contents of the folder Migrations
+* Then open the Package Manager Console
+* Run the following commands:
 ```
-$ dotnet run
+$ Add-Migration Initial
+$ Update-Database
 ````
+
+Now you can run application
+```
+dotnet run or press F5
+```
 
 
