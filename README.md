@@ -15,7 +15,7 @@ Simple SPA application used for calculating the cost of loan. I also created dat
 ### Angular project
 #### Prerequisites
 * Install Node.js which includes Node Package Manager
-####Setting Up a Project
+#### Setting Up a Project
 Install the Angular CLI globally:
 ```
 npm install -g @angular/cli
@@ -29,9 +29,13 @@ Run project:
 $ ng serve
 ```
 
-# .Net Core 
+### .Net Core 
+#### Prerequisites
+*  Install dotnet sdk
+* Install docker
+
 ```
 $ dotnet run
 ````
 
-# Database
+
