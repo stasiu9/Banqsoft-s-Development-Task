@@ -5,7 +5,7 @@
 
 
 ## General info
-Simple SPA application used for calculating the cost of loan. Application is connected with database where are stored information about loans and interest rate.
+Simple SPA application used for calculating the cost of loan. Application is connected with database where are stored information about loans and interest rates.
 
 ## Technologies
 * .NET Core 3.1
