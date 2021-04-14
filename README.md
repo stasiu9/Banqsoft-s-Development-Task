@@ -36,6 +36,7 @@ $ ng serve
 #### Firstly you should follow instructions in link below to install SQL Server:
 * https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker
 
+After this step you should change sql connection in appsettings.json
 Next you should open backend project and setup migration:
 * Remove the contents of the folder Migrations
 * Then open the Package Manager Console
